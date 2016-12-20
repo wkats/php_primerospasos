@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>:.Hola Mundo PHP.:</title>
+	<link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
 
@@ -10,6 +11,8 @@
 /*Pequeña tabla que muestra
 **un mensaje de bienvenida :)
 */
+
+$mundo = "mundo";
 echo "<table>";
 echo "	<tr>";
 echo "		<th>¡Hola </th>";
@@ -23,17 +26,18 @@ echo "</table>";
 
 //Declaramos variables de varios tipos
 //Int, Float, String, Boolean
+
 $dia = 20; //Int
 $sueldo = 2300.10; //Float
-$nombre = 'René'; //String
+$nombre = "René"; //String
 $completado = true; //Boolean
 
-echo "
+echo "<div class='coso'>
 <table>
 	<tr>
 		<th>Tipo de Dato</th>
 		<th>Nombre de Variable</th>
-		<th>Valor</th>
+		<th>Valor </th>
 	</tr>
 	<tr>
 		<td>Int</td>
@@ -56,10 +60,9 @@ echo "
 		<td>$completado</td>
 	</tr>
 </table>
+</div>
 ";
 ?>
-
-
 	
 </body
 ></html>
